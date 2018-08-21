@@ -10497,6 +10497,7 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Public/RuntimeTests.h" \
 	"$$unrealRootPath/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Public/ShaderComparisonTests.h" \
 	"$$unrealRootPath/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Public/ScreenshotTools.h" \
+	"$$FPS_UE420RootPath/Source/FPS_UE420/ChooseNextPatrolPoint.h" \
 	"$$FPS_UE420RootPath/Source/FPS_UE420/FPS_UE420.h" \
 	"$$FPS_UE420RootPath/Source/FPS_UE420/TP_ThirdPerson/TP_ThirdPerson.h" \
 	"$$FPS_UE420RootPath/Source/FPS_UE420/TP_ThirdPerson/TP_ThirdPersonCharacter.h" \

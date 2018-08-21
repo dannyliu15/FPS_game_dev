@@ -1705,9 +1705,11 @@
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Programs/Windows" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source" />
-    <Include Path="/home/dannyliu/Documents/Unreal Projects/FPS_UE420/Source" />
-    <Include Path="/home/dannyliu/Documents/Unreal Projects/FPS_UE420/Source/FPS_UE420" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime" />
+    <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem/Public" />
+    <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule/Public" />
+    <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule/Classes" />
+    <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/Core/Public/Linux" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/Core/Public" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/Core" />
@@ -1988,7 +1990,6 @@
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AnimationCore" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/PropertyPath/Public" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/PropertyPath" />
-    <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem/Public" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem/Public/NavAreas" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem/Public/NavFilters" />
@@ -2016,9 +2017,6 @@
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Public" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/GameplayTasks" />
-    <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule/Public" />
-    <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule/Classes" />
-    <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/Kismet/Classes" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/Kismet/Public" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/Kismet" />
@@ -2034,6 +2032,8 @@
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AudioMixer" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/Components" />
     <Include Path="/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP" />
+    <Include Path="/home/dannyliu/Documents/Unreal Projects/FPS_UE420/Source" />
+    <Include Path="/home/dannyliu/Documents/Unreal Projects/FPS_UE420/Source/FPS_UE420" />
   </WorkspaceParserPaths>
   <VirtualDirectory Name="Engine">
     <Project Name="UE4Client" Path="Intermediate/ProjectFiles/UE4Client.project" Active="No" />

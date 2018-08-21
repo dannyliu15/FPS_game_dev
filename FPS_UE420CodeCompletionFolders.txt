@@ -1702,9 +1702,11 @@
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Programs/Windows
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source
-/home/dannyliu/Documents/Unreal Projects/FPS_UE420/Source
-/home/dannyliu/Documents/Unreal Projects/FPS_UE420/Source/FPS_UE420
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime
+/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem/Public
+/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule/Public
+/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule/Classes
+/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/Core/Public/Linux
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/Core/Public
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/Core
@@ -1985,7 +1987,6 @@
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AnimationCore
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/PropertyPath/Public
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/PropertyPath
-/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem/Public
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem/Public/NavAreas
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/NavigationSystem/Public/NavFilters
@@ -2013,9 +2014,6 @@
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Classes
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Public
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/GameplayTasks
-/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule/Public
-/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule/Classes
-/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/Kismet/Classes
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/Kismet/Public
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/Kismet
@@ -2031,3 +2029,5 @@
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AudioMixer
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/Components
 /home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP
+/home/dannyliu/Documents/Unreal Projects/FPS_UE420/Source
+/home/dannyliu/Documents/Unreal Projects/FPS_UE420/Source/FPS_UE420

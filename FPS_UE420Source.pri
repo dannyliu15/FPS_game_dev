@@ -8138,6 +8138,7 @@ SOURCES += \
 	"$$unrealRootPath/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Private/Shaders/ShaderComparisonTests.cpp" \
 	"$$unrealRootPath/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Private/Slate/RichTextMarkupProcessingTest.cpp" \
 	"$$unrealRootPath/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Private/ScreenshotTools.cpp" \
+	"$$FPS_UE420RootPath/Source/FPS_UE420/ChooseNextPatrolPoint.cpp" \
 	"$$FPS_UE420RootPath/Source/FPS_UE420/FPS_UE420.cpp" \
 	"$$FPS_UE420RootPath/Source/FPS_UE420/TP_ThirdPerson/TP_ThirdPersonCharacter.cpp" \
 	"$$FPS_UE420RootPath/Source/FPS_UE420/TP_ThirdPerson/TP_ThirdPersonGameMode.cpp" \

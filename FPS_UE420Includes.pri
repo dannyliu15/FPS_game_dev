@@ -1085,8 +1085,7 @@ INCLUDEPATH += \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Programs/UnrealWatchdog/Private \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Programs/Windows \
-	Source \
-	Source/FPS_UE420 \
+	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/Core \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/Core/Public/Algo \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/Core/Public/Algo/Impl \
@@ -1299,7 +1298,6 @@ INCLUDEPATH += \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Developer/AssetTools/Public/AssetTypeActions \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/KismetCompiler \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/GameplayTasks \
-	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AIModule \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/Kismet \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/Kismet/Public/Nodes \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp \
@@ -1308,4 +1306,6 @@ INCLUDEPATH += \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AudioMixer \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/Components \
 	/home/dannyliu/unreal420/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP \
+	Source \
+	Source/FPS_UE420 \
 
