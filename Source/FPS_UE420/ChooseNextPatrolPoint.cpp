@@ -8,9 +8,9 @@
 
 EBTNodeResult::Type UChooseNextPatrolPoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
-    UE_LOG(LogTemp, Warning, TEXT("This is AI in C++ !!!"));
-    
-
-
+ 
+    auto BlackboardComp = OwnerComp.GetBlackboardComponent();
+    auto Index = BlackboardComp->GetValueAsInt(IndexKey.SelectedKeyName);
+    UE_LOG(LogTemp, Warning, TEXT("Patrolpoint index: %i"), Index);
     return EBTNodeResult::Succeeded;
 }
