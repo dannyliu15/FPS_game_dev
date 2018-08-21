@@ -15,7 +15,7 @@ class FPS_UE420_API APatrollingGuard : public ATP_ThirdPersonCharacter
 {
 	GENERATED_BODY()
 	
-protected:
+public: // TODO remove or create Getter
 	UPROPERTY(EditInstanceOnly, Category = "Patroll Points of this instance")
 	TArray<AActor*> PatrollPoints;
 	

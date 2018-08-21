@@ -3,7 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Runtime/AIModule/Classes/AIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
+#include "PatrollingGuard.h" // TODO remove couplig
 #include "BehaviorTree/BTTaskNode.h"
 #include "ChooseNextPatrolPoint.generated.h"
 
@@ -19,6 +21,9 @@ class FPS_UE420_API UChooseNextPatrolPoint : public UBTTaskNode
 protected:
 	UPROPERTY(EditAnywhere, Category = "Blackboard")
 	struct FBlackboardKeySelector IndexKey;
+
+	UPROPERTY(EditAnywhere, Category = "Blackboard")
+	struct FBlackboardKeySelector PatrolPointKey;
 	
 	
 	
