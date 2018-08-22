@@ -6,6 +6,7 @@
 #include "Runtime/AIModule/Classes/AIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "PatrollingGuard.h" // TODO remove couplig
+#include "PatrolPointActorComponent.h"
 #include "BehaviorTree/BTTaskNode.h"
 #include "ChooseNextPatrolPoint.generated.h"
 

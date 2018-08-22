@@ -12,14 +12,24 @@ EBTNodeResult::Type UChooseNextPatrolPoint::ExecuteTask(UBehaviorTreeComponent& 
     
     //UE_LOG(LogTemp, Warning, TEXT("Patrolpoint index: %i"), Index);
     
+
+   
+
     // Get the patrol points
     auto AIController = OwnerComp.GetAIOwner();
     auto ControlledPawn = AIController->GetPawn();
-    //**********IMPORTANT***********//
-    auto PatrollingGuard = Cast<APatrollingGuard>(ControlledPawn);
-    //******************************//
-    auto PatrolPoints = PatrollingGuard->PatrollPoints;
-    
+    auto PatrolPointsComponent = ControlledPawn->FindComponentByClass<UPatrolPointActorComponent>();
+    if (!ensure(PatrolPointsComponent)){ return EBTNodeResult::Failed; }
+
+    // Warn about empty patrol route
+    auto PatrolPoints = PatrolPointsComponent->GetPatrolPoints();
+    if (PatrolPoints.Num() == 0)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("A guard is missing patrol points"));
+        return EBTNodeResult::Succeeded;
+    }
+
+
     // Set next patrol point
     auto BlackboardComp = OwnerComp.GetBlackboardComponent();
     auto Index = BlackboardComp->GetValueAsInt(IndexKey.SelectedKeyName);
@@ -27,8 +37,6 @@ EBTNodeResult::Type UChooseNextPatrolPoint::ExecuteTask(UBehaviorTreeComponent& 
     
     // Cycle the index
     BlackboardComp->SetValueAsInt(IndexKey.SelectedKeyName, (Index+1)%PatrolPoints.Num());
-
-    // TODO protect against empty patrol routes
 
     return EBTNodeResult::Succeeded;
 }
