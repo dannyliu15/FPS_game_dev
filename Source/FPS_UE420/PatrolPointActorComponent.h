@@ -6,7 +6,9 @@
 #include "Components/ActorComponent.h"
 #include "PatrolPointActorComponent.generated.h"
 
-
+/**
+ *  A "Patrol Point list" to help AI choose the patrol point
+ */
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class FPS_UE420_API UPatrolPointActorComponent : public UActorComponent
 {
